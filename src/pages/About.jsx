@@ -1,6 +1,5 @@
-import MainMenu from "../components/MainManu"
-
 export default function About() {
+
     return (
         <>
 
