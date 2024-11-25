@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes } from "react-router"
-import Home from "./pages/Home.jsx"
-import Books from "./pages/Books.jsx"
-import About from "./pages/About.jsx"
-import Contacts from "./pages/Contacts.jsx"
+import Home from "./pages/Home"
+import Books from "./pages/Books"
+import About from "./pages/About"
+import Contacts from "./pages/Contacts"
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
-          <Route path="/about" element={<Aboput />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </BrowserRouter>

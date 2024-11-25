@@ -7,9 +7,9 @@ export default function About() {
                 </div>
                 <nav>
                     <a href="/">Home</a>
-                    <a href="/Books.jsx">Books</a>
-                    <a href="/About.jsx">About</a>
-                    <a href="/Contacts.jsx">Contacts</a>
+                    <a href="/books">Books</a>
+                    <a href="/about">About</a>
+                    <a href="/contacts">Contacts</a>
                 </nav>
             </header>
             <main>
